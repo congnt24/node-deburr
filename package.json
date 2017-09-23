@@ -1,0 +1,23 @@
+{
+  "name": "vnt-deburr",
+  "version": "1.0.0",
+  "description": "Loc dau tieng viet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/congnt24/node-deburr.git"
+  },
+  "keywords": [
+    "deburr",
+    "locdau"
+  ],
+  "author": "@congnt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/congnt24/node-deburr/issues"
+  },
+  "homepage": "https://github.com/congnt24/node-deburr#readme"
+}
