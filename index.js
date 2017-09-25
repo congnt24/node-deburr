@@ -56,8 +56,10 @@ var deburredLetters = {
     '\u0152': 'Oe', '\u0153': 'oe',
     '\u0149': "'n", '\u017f': 's'
 };
-var flatWord = function (str) {
-    str = str.replace(reLatin, function(key){return deburredLetters[key]});
+var flatWord = function (str, simple) {
+    if (simple === true) {
+        str = str.replace(reLatin, function(key){return deburredLetters[key]});
+    }
     // language=JSRegexp
     str = str.replace(/[àáạảãâầấậẩẫăằắặẳẵ]/g, "a");
     str = str.replace(/[èéẹẻẽêềếệểễ]/g, "e");
@@ -85,4 +87,4 @@ var flatWord = function (str) {
 
 
 
-module.exports = flatWord
+module.exports = flatWord;
