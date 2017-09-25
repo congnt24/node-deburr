@@ -1,6 +1,6 @@
 {
   "name": "vnt-deburr",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Loc dau tieng viet",
   "main": "index.js",
   "scripts": {
